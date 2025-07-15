@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: bot-crypto-testnet
+    env: python
+    plan: free
+    buildCommand: ""
+    startCommand: python bot_testnet.py
