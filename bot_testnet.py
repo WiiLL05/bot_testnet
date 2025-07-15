@@ -12,11 +12,11 @@ import os
 # === CONFIGURATION ===
 API_KEY = "SxVzVQB5mjJqxGlzkz0NXjUEAnVi0gflOwQ9VbLFKJF0s7zDXtcJAcpCagwcc98V"
 API_SECRET = "sXjw8ziYV98YT5NKatd5tez0X8lL0PYOlBWubgzucR4J7J05XmauzRr6zTwr7EAa"
+client = Client(API_KEY, API_SECRET)
+client.API_URL = 'https://testnet.binance.vision/api'
+
 TELEGRAM_TOKEN = "7614533197:AAHNhLPiAi7wajeu15LuOGnBseT31vr-so4"
 CHAT_ID = "2105745536"
-
-TELEGRAM_TOKEN = os.getenv("TELEGRAM_TOKEN")
-CHAT_ID = os.getenv("CHAT_ID")
 HISTORIQUE_CSV = "historique_test.csv"
 PORTEFEUILLE_JSON = "portefeuille_test.json"
 
